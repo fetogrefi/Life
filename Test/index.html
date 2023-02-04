@@ -42,17 +42,15 @@
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
         }
-       let defaultToDarkFilter = [
-        'grayscale:80%',
-        'invert:20%',
-    ]
+       
             
         map.createPane('pane_OpenStreetMap_0');
         map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
-        var layer_OpenStreetMap_0 = L.tileLayer.colorFilter('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             pane: 'pane_OpenStreetMap_0',
             opacity: 1.0,
             attribution: '',
+            grayscale:80%,
             minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
