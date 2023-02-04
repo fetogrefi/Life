@@ -45,10 +45,9 @@
         }
         map.createPane('pane_OpenStreetMap_0');
         map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
-        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        var layer_OpenStreetMap_0 = L.tileLayer('http://tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png', {
             pane: 'pane_OpenStreetMap_0',
             opacity: 1.0,
-            color: 'rgba(35,35,35,1.0)',
             attribution: '',
             minZoom: 1,
             maxZoom: 28,
