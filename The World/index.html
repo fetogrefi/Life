@@ -45,7 +45,7 @@
         }
         map.createPane('pane_OpenStreetMap_0');
         map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
-        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        var layer_OpenStreetMap_0 = L.tileLayer('http://tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png', {
             pane: 'pane_OpenStreetMap_0',
             opacity: 1.0,
             attribution: '',
@@ -275,14 +275,14 @@
         function style_FRA_adm0_1_0() {
             return {
                 pane: 'pane_FRA_adm0_1',
-                opacity: 1,
+                opacity: 0.3,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.3,
                 fillColor: 'rgba(187,229,249,1.0)',
                 interactive: true,
             }
