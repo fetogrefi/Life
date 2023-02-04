@@ -1,6 +1,8 @@
 
         #map {
-            background-color: #ffffff
+            background-color: #ffffff;
+                    filter: grayscale(100%);
+            -webkit-filter: grayscale(100%);
         }
         th {
             text-align: left;
