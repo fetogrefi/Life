@@ -5,7 +5,7 @@ var wms_layers = [];
             'title': 'World Base',
             'type': 'base',
             'opacity': .4,
-                'grayscale': 100%,
+                
             
             
             source: new ol.source.XYZ({
