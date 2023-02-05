@@ -5,6 +5,7 @@ var wms_layers = [];
             'title': 'OpenStreetMap',
             'type': 'base',
             'opacity': .3,
+                'grayscale': 80%,
             
             
             source: new ol.source.XYZ({
