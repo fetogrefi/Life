@@ -4,7 +4,7 @@ var wms_layers = [];
         var lyr_France_0 = new ol.layer.Tile({
             'title': 'France',
             'type': 'base',
-            'opacity': 1.000000,
+            'opacity': 1.20000,
             
             
             source: new ol.source.XYZ({
@@ -16,7 +16,7 @@ var wms_layers = [];
         var lyr_CartoDbPositron_1 = new ol.layer.Tile({
             'title': 'CartoDb Positron',
             'type': 'base',
-            'opacity': .5,
+            'opacity': .75,
             
             
             source: new ol.source.XYZ({
