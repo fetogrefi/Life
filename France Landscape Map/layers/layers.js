@@ -16,7 +16,7 @@ var wms_layers = [];
         var lyr_WorldBase_1 = new ol.layer.Tile({
             'title': 'World Base',
             'type': 'base',
-            'opacity': 1.000000,
+            'opacity': .60,
             
             
             source: new ol.source.XYZ({
