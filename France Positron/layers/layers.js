@@ -16,7 +16,7 @@ var wms_layers = [];
         var lyr_CartoDbPositron_1 = new ol.layer.Tile({
             'title': 'CartoDb Positron',
             'type': 'base',
-            'opacity': 1.000000,
+            'opacity': .5,
             
             
             source: new ol.source.XYZ({
