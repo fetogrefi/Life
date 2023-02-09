@@ -23,6 +23,7 @@ var lyr_ParisinsideOSMdifference_1 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_ParisinsideOSMdifference_1, 
                 style: style_ParisinsideOSMdifference_1,
+                'opacity': .5,
                 interactive: true,
                 title: '<img src="styles/legend/ParisinsideOSMdifference_1.png" /> Paris inside OSM — difference'
             });
