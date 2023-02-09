@@ -4,7 +4,7 @@ var wms_layers = [];
         var lyr_OpenStreetMap_0 = new ol.layer.Tile({
             'title': 'OpenStreetMap',
             'type': 'base',
-            'opacity': .7,
+            'opacity': 1.0,
             
             
             source: new ol.source.XYZ({
@@ -24,6 +24,7 @@ var lyr_Paris_1 = new ol.layer.Vector({
                 source:jsonSource_Paris_1, 
                 style: style_Paris_1,
                 interactive: true,
+                'opacity': .5,
                 title: '<img src="styles/legend/Paris_1.png" /> Paris'
             });
 
