@@ -23,6 +23,7 @@ var lyr_Paris_1 = new ol.layer.Vector({
                 declutter: true,
                 source:jsonSource_Paris_1, 
                 style: style_Paris_1,
+                'opacity': .5,
                 interactive: true,
                 title: '<img src="styles/legend/Paris_1.png" /> Paris'
             });
